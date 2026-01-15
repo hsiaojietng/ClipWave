@@ -30,6 +30,8 @@ So based on the above questions, I have come up with some objectives to be met:
 - Suggest revised guidelines: Based on the data analyzed, provide revision to guidelines to tackle pressing claims/opinion content
 
 ## Phase 2: Clean dataset
+Since the dataset is from Kaggle and already collected, we can move on to cleaning the dataset.
+
 Looking through the dataset, I noticed multiple records that have (Blanks) as the "claim_status". Since it does not provide any insights, I deleted these records.
 
 These are the columns in the dataset for understanding:
@@ -45,3 +47,11 @@ These are the columns in the dataset for understanding:
 - video_share_count: Total number of times the published video was shared
 - video_download_count: Total number of times the published video was downloaded
 - video_comment_count: Total number of comments on the published video
+
+## Phase 3: Analyze dataset
+To better analyze the dataset, I decided to import the CSV data into MySQL.
+
+First we want to look at engagement and reach of the videos between claims vs opinions to have an understanding of which one dominates the platform.
+I created this query to find the average of the metrics of engagement and reach (view count, likes, shares, downloads and comments) for us to easily differentiate between claims and opinions.
+![Engagement and reach of claims vs opinions](Screenshots/engagement_claims_opinions.png)
+
