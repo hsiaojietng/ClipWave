@@ -55,3 +55,9 @@ First we want to look at engagement and reach of the videos between claims vs op
 I created this query to find the average of the metrics of engagement and reach (view count, likes, shares, downloads and comments) for us to easily differentiate between claims and opinions.
 ![Engagement and reach of claims vs opinions](Screenshots/engagement_claims_opinions.png)
 
+Then I want to query to obtain the videos segregated by the content type and total number of videos for that content type. So this answers the question of how much of these content we have.
+![Total number of videos by content_type](Screenshots/total_number_of_videos_by_content_type.png)
+
+Additionally, we can also see the total number of video views based on the content_type.
+![Total number of views by content_type](Screenshots/total_number_of_views_by_content_type.png)
+

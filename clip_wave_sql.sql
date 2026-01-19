@@ -14,5 +14,28 @@ SELECT
 FROM video
 GROUP BY claim_status;
 
+SELECT 
+	claim_status,
+    COUNT(video_id) AS total_videos
+FROM video
+GROUP BY claim_status;
+
+SELECT 
+	claim_status,
+    SUM(video_view_count) AS total_video_views
+FROM video
+GROUP BY claim_status;
+
+SELECT *
+FROM video;
+
+SELECT 
+	claim_status,
+    SUM(video_view_count) AS total_video_views
+FROM video
+WHERE author_ban_status IN ('under review', 'banned')
+GROUP BY claim_status;
+
+
 
 
