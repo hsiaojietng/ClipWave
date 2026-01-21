@@ -61,3 +61,11 @@ Then I want to query to obtain the videos segregated by the content type and tot
 Additionally, we can also see the total number of video views based on the content_type.
 ![Total number of views by content_type](Screenshots/total_number_of_views_by_content_type.png)
 
+Afterwhich, I created a CTE to obtain a subset of the dataset. This CTE contains those claim videos where the content is not verified and the author is still active.
+From this subset, I obtained the 5 words commonly used in the transcript of the claim videos from the 3 videos with the highest like counts.
+![Five words with highest like counts videos](Screenshots/five_words_with_highest_like_counts_videos.png)
+
+It seems like the top phrases in claim videos based on likes are:
+-  "a colleague learned from the"
+-  "a colleague read in the"
+-  "a friend read in the"
