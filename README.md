@@ -69,3 +69,29 @@ It seems like the top phrases in claim videos based on likes are:
 -  "a colleague learned from the"
 -  "a colleague read in the"
 -  "a friend read in the"
+
+## Phase 4: Visualize dataset
+- Pie Chart (Number of videos (claims or opinion)): Visualizes the total number of videos categorized as claims or opinion.
+- Column Chart (Video views (claims or opinion)): Displays the total number of video views categorized as claims or opinion.
+- Stacked Column Chart (Verified videos (claims or opinion)): Depicts the relationship of verified videos with the category of claims status.
+- Clustered column chart (Total metrics of videos (claims or opinion)): Shows the relationship of the total likes, total views and total shares categorized as claims or opinion. As you drill down into each claims_status category, you can see the top 3 first 5 words used in the videos with the most likes, views and shares.
+
+![ClipWave PowerBI Dashboard](Screenshots/ClipWave_PowerBI_dashboard.png)
+
+## Phase 6: Data-Driven Action (Insights and Analysis)
+Key Findings:
+- The number of claim videos are slightly more than the number of opinion videos. Claim videos is 50.37% while opinion videos make up 49.63%. 
+- Claim videos bring in significantly more views than opinion videos.
+- There are more claim videos that are not verified compared to opinion videos.
+- Claim videos bring in significantly more views, likes and shares compared to opinion videos.
+- The top 3 first 5 words used in the claim videos with the most views, likes and shares are:
+    - "a colleague learned from the"
+    - "a colleague read in the"
+    - "a friend read in the"
+- The top 3 first 5 words used in the opinion videos with the most views, likes and shares are:
+    - "i am willing to wager"
+    - "my colleagues are willing wager"
+    - "my colleagues point of view"
+
+Recommedations:
+- Early Intervention Reviews: ClipWave can implement machine learning to pinpoint content swiftly where video posters start with the top 3 sentences above or something similar to reduce the time taken for these videos to be reviewed.
