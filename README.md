@@ -78,7 +78,7 @@ It seems like the top phrases in claim videos based on likes are:
 
 ![ClipWave PowerBI Dashboard](Screenshots/ClipWave_PowerBI_dashboard.png)
 
-## Phase 6: Data-Driven Action (Insights and Analysis)
+## Phase 5: Data-Driven Action (Insights and Analysis)
 Key Findings:
 - The number of claim videos are slightly more than the number of opinion videos. Claim videos is 50.37% while opinion videos make up 49.63%. 
 - Claim videos bring in significantly more views than opinion videos.
@@ -94,4 +94,7 @@ Key Findings:
     - "my colleagues point of view"
 
 Recommedations:
-- Early Intervention Reviews: ClipWave can implement machine learning to pinpoint content swiftly where video posters start with the top 3 sentences above or something similar to reduce the time taken for these videos to be reviewed.
+- Early Intervention Reviews: ClipWave can implement machine learning to pinpoint content swiftly where video posters start with the top 3 sentences above or something similar to flag them for review.
+
+## Phase 6: Conclusion
+This project demonstrated how I can use data analysis and visualization to clean complex and huge amount of data of videos from a short form content company, ClipWave, to target claim videos to review as quickly as possible.
