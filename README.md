@@ -94,7 +94,7 @@ Key Findings:
     - "my colleagues point of view"
 
 Recommedations:
-- Early Intervention Reviews: ClipWave can implement machine learning to pinpoint content swiftly where video posters start with the top 3 sentences above or something similar to flag them for review.
+- Early Intervention Reviews: ClipWave can implement machine learning to pinpoint content swiftly where video posters start with the top 3 sentences above, or something similar to flag them for review.
 
 ## Phase 6: Conclusion
 This project demonstrated how I can use data analysis and visualization to clean complex and huge amount of data of videos from a short form content company, ClipWave, to target claim videos to review as quickly as possible.
